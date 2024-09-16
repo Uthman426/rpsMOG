@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>The Rock Paper Scissors Game</h1>
+    <h2>Win five rounds to be the victor</h2>
+    <h2 id="result">
+      Player <span id="p-score">0</span> - <span id="c-score">0</span> Computer
+    </h2>
+    <div class="display-moves">
+      <div class="move" id="movep">
+        <img id="p-move" src="./assets/Rock.svg">
+      </div>
+      <div class="separator">VS</div>
+      <div class="move" id="movec">
+        <img id="c-move" src="./assets/Rock.svg">
+      </div>
+    </div>
+    <h2>Click on the image below to select your move:<h2>
+    <div class="action">
+      <input class="options" type="image" src="./assets/Rock.svg" value="Rock" />
+      <input class="options" type="image" src="./assets/Paper.svg" value="Paper" />
+      <input class="options" type="image" src="./assets/Scissors.svg" value="Scissors" />
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
